@@ -14,7 +14,7 @@ const createRoutes = (app: express.Express, io: socket.Server) => {
   const UploadFileController = new UploadFileCtrl();
 
   // app.use(express.static('validations/index.html'))
-
+//s
   app.use(bodyParser.json());
   app.use(checkAuth);
   app.use(updateLastSeen);
